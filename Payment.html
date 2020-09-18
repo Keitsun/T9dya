@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>T9diya</title>
+    <link rel="icon" type="image/png" href="/favicons\favicon-16x16.png"/>
+    <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
+</head>
+<body>
+    <header>
+
+        <a href="home.html" class="logo">T9diya</a>
+    
+        <nav>
+            <ul class="nav-links">
+                <li><a href="store.html">Stores</a></li>
+                <li><a href="Porducts.html">Produit</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="Payment.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    
+        <a href="form.html" class="a-btn"><button>Sign In</button></a>
+    
+        <a href="#" class="menu" onclick="opennav()"><button class="menu-btn">Menu</button></a>
+        </header>
+    
+        <div id="mobile-menu" class="overlay">
+            <a href="#" class="menu" onclick="closenav()">&times;</a>
+            <div class="overlay-content">
+                <a href="store.html">Stores</a>
+                <a href="Porducts.html">Produit</a>
+                <a href="#">Catalogue</a>
+            </div>
+        </div>
+
+<div class="body-container">
+        <div class="body-text">سجل المعلومات ديالك فالأسفل و طلبك يوصل عندك بسرعة</div>
+  <form>
+    <div class="form-container">
+      <div class="personal-information">
+        <h1>Payment Information</h1>
+      </div> <!-- end of personal-information -->
+           
+          <input id="column-left" type="text" name="first-name" placeholder="First Name"/>
+          <input id="column-right" type="text" name="last-name" placeholder="Surname"/>
+          <input id="input-field" type="text" name="number" placeholder="Card Number"/>
+          <input id="column-left" type="text" name="expiry" placeholder="MM / YY"/>
+          <input id="column-right" type="text" name="cvc" placeholder="CCV"/>
+         
+          <div class="card-wrapper"></div>
+      
+          <input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Streed Address"/>
+          <input id="column-left" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
+          <input id="column-right" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
+          <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
+          <input id="input-button" type="submit" value="Submit"/>
+        
+    </form>
+  </div>
+</div>
+
+  <footer>
+    <div class="flex-container">
+
+        <div class="quicklinks">
+            <a href="#">Quick Links</a>
+            <ul class="q-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="#">Catalogues</a></li>
+                <li><a href="form.html">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <div class="categories">
+            <a href="#">Categories</a>
+            <ul class="categ-list">
+                <li><a href="#">Popular Categories</a></li>
+                <li><a href="#">Best rated</a></li>
+                <li><a href="#">Best prices</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <ul class="contact-list">
+                <li><a href="#"><figure>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <figcaption>97845 avenue hassan II</figcaption>
+                </figure></a></li>
+                <li><a href="#"><figure>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <figcaption>06.859.752.33</figcaption>
+                </figure></a></li>
+                <li><a href="#"><figure>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <figcaption>info@domain.com</figcaption>
+                </figure></a></li>
+            </ul>
+        </div>
+    </div>
+        <hr>
+        <div class="buttons-payement">
+            <a href="#"><button class="eng-btn">English</button></a>
+            <a href="#"><i class="fa fa-cc-visa"></i></a>
+            <a href="#"><i class="fa fa-cc-paypal"></i></a>
+            <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+            <a href="#"><i class="fa fa-cc-amazon-pay"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>

@@ -12,7 +12,7 @@
 }
 
 body{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("imageref/Payment.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("imageref/MarketView.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,163 +169,127 @@ button:hover{
 
 
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
 
-
-.text2 {
-    font-family: 'Lalezar', cursive;
-    color: #fff;
-    font-size: 75px;
-    padding: 8px 12px;
-    top: 100px;
-    right: 200px;
-    width: 100%;
-    text-align: center;
-    transition: all 0.3s ease 0s;
-    text-shadow: 2px 2px #ff0000;
-  }
-
-
-
-
-
-
-
-.backcolor{
-    background-color: #10111a;
-    height: 20px;
+.body-container {
+  padding: 60px 0;
+  background-color: rgba(229, 226, 178, 0.7);
+  margin: 0 auto;
+  width: 600px;
 }
-
-/*carousel*/
-
-/* .wrapper{
-    width: 100%;
-} */
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin:  80px auto;
-  width: 100%;
-  transition: all 0.3s ease 0s;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-.mySlides img{
-    height: 400px;
-    width: 100%;
-    transition: all 0.3s ease 0s;
-    filter: blur(2px);
-    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795));
-}
-
-/* Caption text */
-.text {
-  font-family: 'Lalezar', cursive;
-  color: #ffd000;
-  font-size: 75px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 100px;
-  right: 40px;
-  width: 100%;
+.body-text {
+  padding: 0 20px 30px 20px;
+  font-family: 'Changa', sans-serif;
+  font-size: 1em;
+  color: #333;
   text-align: center;
-  transition: all 0.3s ease 0s;
-  text-shadow: 2px 2px #ff0000;
+  line-height: 1.2em;
 }
+.form-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper {
+  background-color: #ffd000;
+  width: 100%;
+  display: flex;
 
-
-/* The dots/bullets/indicators */
-.dot {
+}
+.personal-information {
+  background-color: #333;
+  color: #ffd000;
+  padding: 1px 0;
+  text-align: center;
+}
+h1 {
+  font-size: 1.3em;
+  font-family: "Roboto"
+}
+input {
+  margin: 1px 0;
+  padding-left: 3%;
+  font-size: 14px;
+}
+input[type="text"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="email"]{
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+input[type="submit"]{
+  display: block;
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: #333;
+  color: #ffd000;
+  margin-top: 2px;
+  curson: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+}
+input[type="submit"]:hover{
+  background-color: #005214;
+  transition: 0.3s ease;
+}
+#column-left {
+  width: 46.8%;
+  float: left;
+  margin-bottom: 2px;
+}
+#column-right {
+  width: 46.8%;
+  float: right;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-
-
-
-.our-partners{
-    margin-top: -90px;
-    padding: 0 80px;
-    background-color: #005214;
-    padding-bottom: 30px;
-    color: #fff;
-}
-
-.our-partners h3{
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.our-partners hr{
-    border: none;
-    height: 4px;
-    width: 100px;
-    background-color: orange;
-}
-
-.our-partners-inner{
-    margin-top: 50px;
-    margin-left: 200px;
-}
-
-.our-partners-inner a{
-    display: inline-block;
-    width: 14%;
-    padding: 15px;
-    margin-right: 25px;
-    border: 1px solid #cacaca;
-    border-radius: 20px;
-    box-shadow: 0 5px 0 #cacaca;
-}
-
-.our-partners-inner img{
+@media only screen and (max-width: 480px){
+  body {
     width: 100%;
+    margin: 0 auto;
+  }
+  .form-container {
+    margin: 0 2%;
+  }
+  input {
+    font-size: 1em;
+  }
+  #input-button {
+    width: 100%;
+  }
+  #input-field {
+    width: 96.5%;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  input {
+    margin: 2px 0;
+  }
+  input[type="submit"]{
+    height: 50px;
+  }
+  #column-left {
+    width: 96.5%;
+    display: block;
+    float: none;
+  }
+  #column-right {
+    width: 96.5%;
+    display: block;
+    float: none;
+  }
 }
 
-::-webkit-scrollbar{
-    width: 10px;
-}
-::-webkit-scrollbar-track{
-    background-color: #2d3047;
-}
-::-webkit-scrollbar-thumb {
-    background: #e9e3e6;
-  }
+
 
 
 
