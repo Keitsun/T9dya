@@ -419,3 +419,64 @@ hr{
     padding:  -10px 5px;
     color: #717171;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .text2{
+      font-size: 35px;
+    }
+    .text2 span {
+        font-size: 35px;
+    }
+    .text{
+        display: none;
+        
+    }
+    .mySlides img{
+        filter: none;
+        width: 100%;
+    }
+
+    .our-partners{
+        margin-left: -150px;        
+
+    }
+    .our-partners h3{
+        margin-left: 100px;
+        padding-top: 30px;
+    }
+    .our-partners hr{
+        margin-left: 100px;
+    }
+
+    .our-partners-inner img{
+        width: 100%;
+
+    }
+
+    .our-partners-inner a{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .quicklinks{
+        width: 25%;
+    }
+    .categories{
+        width: 25%;
+    }
+    .contact-list{
+        width: 100%;
+       
+
+    }
+    .flex-container{
+       margin-left: 15px; 
+    }
+    
+}
