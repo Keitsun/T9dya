@@ -185,15 +185,25 @@ button:hover{
   }
 
   h1{
-      color: #ff0015;
+      color: #ffd000;
       font-family: 'Lalezar', cursive;
       margin: 0 30px;
       margin-top: 50px;
       font-size: 50px;
-      border-bottom: 5px solid #ff0015;
+      border-bottom: 5px solid #ffd000;
       width: 20%;
-      text-shadow: 1px 1px #e9e3e6;
+      text-shadow: 2px 2px #005214;
     }
+    .h1-2{
+      color: #ffd000;
+      font-family: 'Lalezar', cursive;
+      margin: 0 30px;
+      margin-top: 50px;
+      font-size: 50px;
+      border-bottom: 5px solid  #005214;
+      width: 35%;
+      text-shadow: 1px 1px #e9e3e6;
+      }
   
   img {
     border-radius: 5px 5px 0 0;
@@ -205,6 +215,51 @@ button:hover{
     color: #e9e3e6;
     background-color: #005214;
   }
+
+  .side-bar{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .ul-container{
+    width: 20%;
+    padding-top: 10%;
+    background-color: #ffd000;
+    left: 0;
+    margin-left: -170px;
+  }
+
+  .side-bar li{
+      list-style: none;
+      padding: 20px 20px;
+      color: #ffd000;
+      margin-left: -20px;
+  }
+
+  .side-bar a{
+      text-decoration: none;
+      color: #10111a;
+      padding: 20px 70px;
+
+    }
+
+    .side-bar a:hover{
+        color: #ffd000;
+        background-color: #00191a;
+
+    }
+
+    
+
+    .product-categ{
+        background-color: #00191a;
+        width: 80%;
+        margin-right: -170px;
+    }
+
+    
 
 
 

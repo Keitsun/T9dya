@@ -585,6 +585,57 @@ hr{
   background: #bbb;
   border-radius: 0;
   padding:  -10px 5px;
-  color: #717171;
+  color: #131313;
   width: 5%;
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+  .menu-btn{
+    width: 20%;
+    width: 100%;
+  }
+
+  body{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sign-up{
+    display: none;
+  }
+  .sign-in{
+    width: 100%;
+  }
+  .sign-in h2{
+    padding-top: 30px;
+  }
+  .quicklinks{
+    width: 25%;
+}
+.categories{
+    width: 25%;
+}
+.contact-list{
+    width: 100%;
+
+
+}
+.flex-container{
+   margin-left: 15px; 
+}
+.buttons-payement .eng-btn{
+  width: 23%;
+}
+
 }
